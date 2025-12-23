@@ -66,7 +66,7 @@ Respond ONLY in valid JSON format:
 {{"mapped_category": "SubGenreName or [UNMAPPED]", "reasoning": "Explanation"}}"""
 
     def call_llm(self, prompt):
-        """Calls Groq API and returns parsed JSON response."""
+        """This function calls Groq API and returns parsed JSON response."""
         try:
             chat_completion = self.client.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
@@ -110,3 +110,11 @@ if __name__ == "__main__":
     print(f"\n✓ Groq processing complete. reasoning_log.json created.")
     print(f"✓ Processed {len(log)} cases")
     print(f"✓ Mapped: {len(log) - unmapped}, Unmapped: {unmapped}")
+    
+    # Print reasoning log
+    print(f"\n{'='*80}")
+    print("REASONING LOG:")
+    print(f"{'='*80}")
+    with open("reasoning_log.json", "r") as f:
+        reasoning_log = json.load(f)
+        print(json.dumps(reasoning_log, indent=2))
