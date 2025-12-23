@@ -1,0 +1,87 @@
+{
+    "case_1": {
+        "input_tags": [
+            "Love"
+        ],
+        "blurb": "They hated each other for years, working in the same cubicle, until a late-night deadline changed everything.",
+        "mapped_category": "Fiction > Romance > Enemies-to-Lovers",
+        "reasoning": "The blurb describes two characters who initially hate each other, but a specific event changes their relationship, which aligns with the Enemies-to-Lovers sub-genre in the Romance category."
+    },
+    "case_2": {
+        "input_tags": [
+            "Action",
+            "Spies"
+        ],
+        "blurb": "Agent Smith must recover the stolen drive without being detected by the Kremlin.",
+        "mapped_category": "Fiction > Thriller > Espionage",
+        "reasoning": "The blurb mentions 'Agent Smith' and 'the Kremlin', indicating a story involving spies and espionage, which aligns with the Espionage sub-genre in the Thriller category."
+    },
+    "case_3": {
+        "input_tags": [
+            "Scary",
+            "House"
+        ],
+        "blurb": "The old Victorian mansion seemed to breathe, its corridors whispering secrets of the family's dark past.",
+        "mapped_category": "Fiction > Horror > Gothic",
+        "reasoning": "The story blurb describes an old Victorian mansion with a dark past, which is a common setting for Gothic horror stories, thus it is mapped to the Gothic sub-genre."
+    },
+    "case_4": {
+        "input_tags": [
+            "Love",
+            "Future"
+        ],
+        "blurb": "A story about a man who falls in love with his AI operating system in a neon-drenched Tokyo.",
+        "mapped_category": "Fiction > Sci-Fi > Cyberpunk",
+        "reasoning": "The story is set in a neon-drenched Tokyo and involves a man falling in love with his AI operating system, indicating a blend of technology and futuristic elements, which aligns with the Cyberpunk sub-genre."
+    },
+    "case_5": {
+        "input_tags": [
+            "Action"
+        ],
+        "blurb": "The lawyer stood before the judge, knowing this cross-examination would decide the fate of the city.",
+        "mapped_category": "Fiction > Thriller > Legal Thriller",
+        "reasoning": "The blurb mentions a lawyer, judge, and cross-examination, which are key elements of a legal thriller, taking priority over the 'Action' tag."
+    },
+    "case_6": {
+        "input_tags": [
+            "Space"
+        ],
+        "blurb": "How to build a telescope in your backyard using basic household items.",
+        "mapped_category": "[UNMAPPED]",
+        "reasoning": "The story blurb is an instructional guide on building a telescope, which falls under non-fiction instructional content."
+    },
+    "case_7": {
+        "input_tags": [
+            "Sad",
+            "Love"
+        ],
+        "blurb": "They met again 20 years after the war, both gray-haired, wondering what could have been.",
+        "mapped_category": "Fiction > Romance > Second Chance",
+        "reasoning": "The story blurb implies a reconnection between two people who have a past, suggesting a second chance at love, which aligns with the Second Chance sub-genre in the Romance category."
+    },
+    "case_8": {
+        "input_tags": [
+            "Robots"
+        ],
+        "blurb": "A deep dive into the physics of FTL travel and the metabolic needs of long-term stasis.",
+        "mapped_category": "Fiction > Sci-Fi > Hard Sci-Fi",
+        "reasoning": "The blurb mentions a deep dive into the physics of FTL travel, indicating a focus on scientific concepts, which aligns with the Hard Sci-Fi sub-genre."
+    },
+    "case_9": {
+        "input_tags": [
+            "Ghost"
+        ],
+        "blurb": "A masked killer stalks a group of teenagers at a summer camp.",
+        "mapped_category": "Fiction > Horror > Slasher",
+        "reasoning": "The blurb describes a masked killer stalking teenagers, which is a classic trope of the Slasher sub-genre in Horror fiction."
+    },
+    "case_10": {
+        "input_tags": [
+            "Recipe",
+            "Sweet"
+        ],
+        "blurb": "Mix two cups of flour with sugar and bake at 350 degrees.",
+        "mapped_category": "[UNMAPPED]",
+        "reasoning": "The blurb provides instructions on how to mix and bake, indicating it's a recipe, which falls under non-fiction instructional content."
+    }
+}
