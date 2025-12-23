@@ -102,12 +102,12 @@ if __name__ == "__main__":
     mapper = AdaptiveTaxonomyMapper("taxonomy.json")
     log = mapper.process_test_cases("test_cases.json")
     
-    with open("reasoning_log.json", "w") as f:
+    with open("reasoning_log_Mohit.json", "w") as f:
         json.dump(log, f, indent=4)
     
     # Print summary
     unmapped = sum(1 for v in log.values() if v['mapped_category'] == '[UNMAPPED]')
-    print(f"\n✓ Groq processing complete. reasoning_log.json created.")
+    print(f"\n✓ Groq processing complete. reasoning_log_Mohit.json created.")
     print(f"✓ Processed {len(log)} cases")
     print(f"✓ Mapped: {len(log) - unmapped}, Unmapped: {unmapped}")
     
@@ -115,6 +115,6 @@ if __name__ == "__main__":
     print(f"\n{'='*80}")
     print("REASONING LOG:")
     print(f"{'='*80}")
-    with open("reasoning_log.json", "r") as f:
+    with open("reasoning_log_Mohit.json", "r") as f:
         reasoning_log = json.load(f)
         print(json.dumps(reasoning_log, indent=2))
